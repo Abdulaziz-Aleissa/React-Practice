@@ -1,10 +1,10 @@
 import "./NavBarItems.css";
 
-const NavBarItems = () => {
+const NavBarItems = (props) => {
   return (
     <div>
       <li>
-        <a href="#!">Home</a>
+        <a href="#!">{props.title}</a>
       </li>
     </div>
   );
